@@ -1,2 +1,19 @@
-# LAS-segmentation
-The "Power Line Security Zone Vegetation Detection" project is designed for automatic monitoring and detection of vegetation in power line safety zones. We use advanced computer vision and machine learning technologies to analyze images captured by drones or other surveillance devices.
+# Обработка облаков точек и классификация с использованием модели машинного обучения
+
+## Описание
+Данный проект направлен на классификацию объектов в облаках точек, полученных с помощью лидара. Процесс включает в себя нормализацию данных, использование модели машинного обучения и проведение инференса на новых данных.
+
+## Структура проекта
+- **`src/`** — Исходный код проекта.
+  - **`model/`** — Архитектура модели и веса.
+  - **`utils/`** — Вспомогательные функции.
+  - **`engine/`** — Код для обучения и инференса модели.
+- **`main.py`** — Основной скрипт для инференса и обработки облаков точек.
+- **`requirements.txt`** — Список зависимостей для установки.
+
+## Инструкция по установке и использованию
+
+### 1. Установка зависимостей
+Для установки всех необходимых библиотек, используйте команду:
+```bash
+pip install -r requirements.txt
